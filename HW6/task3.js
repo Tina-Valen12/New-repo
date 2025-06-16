@@ -1,15 +1,16 @@
 function checkOrder(available, ordered) {
     if(available < ordered) {
-        return 'Your order is too large, we don’t have enough goods.';
+        console.log("Your order is too large, we don’t have enough goods.");
+        return;
     }
     else if(ordered == 0) {
-        return 'Your order is empty.';
+        console.log("Your order is empty.");
+        return;
     }
     else if(available >= ordered) {
-        return 'Your order is accepted.'
+        console.log("Your order is accepted.");
+        return;
     }
 }
 
-console.log(checkOrder(3, 5));
-console.log(checkOrder(100, 0));
-console.log(checkOrder(100, 10));
+checkOrder(10,10);
