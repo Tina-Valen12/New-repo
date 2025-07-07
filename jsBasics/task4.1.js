@@ -1,2 +1,2 @@
-let radius = 4047.1276850;
-console.log((Math.PI * radius^2).toFixed(2));
+let radius = 4047.127685;
+console.log(((Math.PI * radius) ^ 2).toFixed(2));
