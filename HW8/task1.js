@@ -1,3 +1,6 @@
+const { tsExternalModuleReference } = require("@babel/types");
+const { default: test } = require("node:test");
+
 const numbers = [2, -5, 0, 7, -3, 0, 10, -8];
 
 let positiveCount = 0;
