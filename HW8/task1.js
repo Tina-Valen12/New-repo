@@ -20,4 +20,4 @@ for (let i = 0; i < numbers.length; i++) {
 console.log('\n');
 console.log('Кількість позитивних чисел:' + ' ' + positiveCount);
 console.log('Кількість нульових чисел:' + ' ' + zeroCount);
-console.log('Кількість негативних чисел:' + ' ' + negativeCount);
+console.log('Кількість негативних чисел тест:' + ' ' + negativeCount);
