@@ -18,6 +18,6 @@ for (let i = 0; i < numbers.length; i++) {
 }
 
 console.log('\n');
-console.log('Кількість позитивних чисел тест test:' + ' ' + positiveCount);
-console.log('Кількість нульових чисел тест:' + ' ' + zeroCount);
-console.log('Кількість негативних чисел тест:' + ' ' + negativeCount);
+console.log('Кількість позитивних чисел:' + ' ' + positiveCount);
+console.log('Кількість нульових чисел:' + ' ' + zeroCount);
+console.log('Кількість негативних чисел:' + ' ' + negativeCount);
