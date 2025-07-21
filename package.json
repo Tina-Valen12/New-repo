@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "axios": "^1.10.0",
+    "jest": "^30.0.4"
+  }
+}
